@@ -10,6 +10,8 @@ python = "^3.9"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 black = {version = "^21.5b2", allow-prereleases = true}
+yapf = "^0.31.0"
+autopep8 = "^1.5.7"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
